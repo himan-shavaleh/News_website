@@ -1,0 +1,84 @@
+// text classes
+.text-capitalize{
+    text-transform: capitalize;
+}
+.text-center{
+    text-align: center;
+}
+.text-sin{
+    color: $color-sin;
+}
+.text-warning{
+    color: $color-warning;
+}
+.text-light{
+    color: $color-light;
+}
+.text-tomato{
+    color: $color-tomato;
+}
+.text-dark{
+    color: $color-dark;
+}
+
+// margin and padding classes
+.m-1{
+    margin: 1rem;
+}
+.m-2{
+    margin: 1.3rem;
+}
+.m-3{
+    margin: 1.7rem;
+}
+.m-x-1{
+    margin:0 1rem;
+}
+.m-x-2{
+    margin:0 1.3rem;
+}
+.m-x-3{
+    margin:0 1.7rem;
+}
+.m-y-1{
+    margin: 1rem 0;
+}
+.m-y-2{
+    margin: 1.3rem 0;
+}
+.m-y-3{
+    margin: 1.7rem 0;
+}
+.p-1{
+    padding: 1rem;
+}
+.p-2{
+    padding: 1.3rem;
+}
+.p-3{
+    padding: 1.7rem;
+}
+.p-x-1{
+    padding:0 1rem;
+}
+.p-x-2{
+    padding:0 1.3rem;
+}
+.p-x-3{
+    padding:0 1.7rem;
+}
+.p-y-1{
+    padding: 1rem 0;
+}
+.p-y-2{
+    padding: 1.3rem 0;
+}
+.p-y-3{
+    padding: 1.7rem 0;
+}
+
+.center{
+    justify-content: center;
+      align-items: center;
+      text-align: center;
+}

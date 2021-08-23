@@ -1,0 +1,29 @@
+// font familise 1- basely   2-alimni sans
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@600&family=Besley:wght@500&display=swap');
+// resets
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+
+}
+// color variables
+$color-light:#ede9d0;
+$color-danger:#e4251d;
+$color-burly:#df9a8b;
+$color-sin:#3a001a;
+$color-yell:#f5e6a1;
+$color-warning:#fb9300;
+$color-dark:#343f56;
+$color-tomato:#e84a5f;
+$color-black:#2a363b;
+$color-bisque:#fecea8;
