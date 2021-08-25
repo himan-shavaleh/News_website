@@ -150,3 +150,21 @@
         }
     }
 }
+// about page
+#main-about{
+    padding: 1rem;
+    .container{
+        display: grid;
+        grid-template-columns: 5fr 2fr;
+        grid-gap: 1rem;
+        .about-content{
+            padding: 1rem;
+            background: $color-white;
+            grid-row: 1/span 3;
+        }
+        .aside{
+            padding: 1rem;
+            height: auto;
+        }
+    }
+}
