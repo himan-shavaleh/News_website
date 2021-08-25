@@ -153,6 +153,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn {
+  text-align: center;
   font-size: 1.4rem;
   padding: 5px 20px;
   -webkit-transition: all 0.5s ease;
@@ -185,6 +186,10 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 5px;
   margin: 10px;
   display: block;
+}
+
+.font-large {
+  font-size: 1.6rem;
 }
 
 .badge {
@@ -226,6 +231,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .bg-black {
   background: #222;
+}
+
+.bg-warning {
+  background: #f99500;
+  padding: 1rem;
+  color: #fff;
 }
 
 #nav .container {
@@ -445,5 +456,57 @@ h1, h2, h3, h4, h5, h6 {
 #main-about .container .aside {
   padding: 1rem;
   height: auto;
+}
+
+#main .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 5fr 2fr;
+      grid-template-columns: 5fr 2fr;
+  grid-gap: 1rem;
+  padding: 1rem;
+}
+
+#main .container .main-article {
+  padding: 1rem;
+}
+
+#main .container .main-article * {
+  margin-bottom: 10px;
+}
+
+#main .container .main-article .writer {
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main .container .main-article .writer * {
+  margin: 10px;
+}
+
+#main .container .categories {
+  margin-bottom: 1rem;
+}
+
+#main .container .categories ul li {
+  font-size: 1.3rem;
+  border-bottom: 1px dotted;
+  padding: 10px;
+}
+
+#main .container .categories ul li:last-child {
+  border: none;
+}
+
+#main .container .categories ul li i {
+  margin-right: 10px;
 }
 /*# sourceMappingURL=main.css.map */

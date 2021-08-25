@@ -101,6 +101,7 @@ letter-spacing: 1px;
 
 // btn classes
 .btn{
+    text-align: center;
     font-size: 1.4rem;
     padding: 5px 20px;
     transition: all 0.5s ease;
@@ -131,7 +132,9 @@ border-radius: 5px;
         }
     
 
-
+.font-large{
+    font-size: 1.6rem;
+}
 
 // badges
 .badge{
@@ -168,4 +171,9 @@ background: $color-warning;
 }
 .bg-black{
     background: #222;
+}
+.bg-warning{
+    background: $color-warning;
+    padding: 1rem;
+    color: $color-white;
 }

@@ -168,3 +168,43 @@
         }
     }
 }
+// article page
+#main{
+    .container{
+        display: grid;
+        grid-template-columns: 5fr 2fr;
+        grid-gap: 1rem;
+        padding: 1rem;
+        .main-article{
+            padding: 1rem;
+            *{
+                margin-bottom: 10px;
+            }
+            .writer{
+                *{
+                    margin:10px;
+                }
+                border-radius: 5px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+        .categories{
+            margin-bottom: 1rem;
+            ul{
+                li{
+                    font-size: 1.3rem;
+                    border-bottom: 1px dotted ;
+                    padding: 10px;
+                    &:last-child{
+                        border: none;
+                    }
+                    i{
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
