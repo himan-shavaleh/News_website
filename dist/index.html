@@ -4,10 +4,155 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<link rel="stylesheet" href="/dist/css/main.css">
+<link rel="shortcut icon" type="image/x-icon" href="/dist/favicon.ico">
     <title>News Grid Website | Home</title>
 </head>
 <body>
-    
+    <!-- navbar -->
+<nav id="nav" class="bg-light text-dark p-y-1">
+    <div class="container">
+        <img src="img/logo.png" alt="news grid" class="logo">
+        <div class="social-icons">
+            <a href="#">
+                <i class="fab fa-telegram fa-2x text-dark"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-twitter fa-2x text-dark"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-instagram fa-2x text-dark"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-linkedin fa-2x text-dark"></i>
+            </a>
+        </div>
+        <ul class="menu">
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+</nav>
+<!-- showcase -->
+<header id="header" class="bg-dark">
+    <div class="container">
+        <div class="showcase-container">
+            <div class="showcase-content">
+                <span class="badge badge-warning text-ippercase">
+                    sport
+                </span>
+                <h1 class="text-uppercase text-light">some sport article</h1>
+                <p class="lead text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nulla ipsum in incidunt fugit assumenda quod reprehenderit modi a officiis, quibusdam molestias, ut at veritatis corporis magni aliquid tenetur minima?</p>
+                <a href="about.html" class="btn btn-danger">Read More</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- home articles (topics) -->
+<section id="topics" class="bg-light p-2">
+    <div class="container">
+        <h2 class="text-dark text-uppercase">editor picks</h2>
+        <div class="articles">
+            <article class="card p-1 ent1 bg-white">
+                <img src="/dist/img/articles/ent1.jpg" alt="ent 1">
+                <div class="article-content">
+                    <span class="badge badge-purple text-uppercase text-dark">Entertinment</span>
+                    <h3 class="text-dark text-uppercase">Lorem ipsum dolor sit amet.</h3>
+                    <p class="lead text-capitalize text-dark">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam commodi consectetur quaerat.</p>
+                </div>
+            </article>
+            <article class="card bg-dark p-1">
+                
+                <div class="article-content">
+                    <span class="badge badge-warning text-uppercase text-light">sport</span>
+                    <h3 class="text-light text-uppercase">Lorem ipsum dolor sit amet.</h3>
+                    <p class="lead text-capitalize text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam commodi consectetur quaerat.</p>
+                </div>
+            </article>
+            <article class="card p-1 bg-white">
+                <img src="/dist/img/articles/tech1.jpg" alt="ent 1">
+                <div class="article-content">
+                    <span class="badge badge-primary text-uppercase text-dark">technology</span>
+                    <h3 class="text-dark text-uppercase">Lorem ipsum dolor sit amet.</h3>
+                    <p class="lead text-capitalize text-dark">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam commodi consectetur quaerat.</p>
+                </div>
+            </article>
+            <article class="card p-1 bg-white">
+               
+                <div class="article-content">
+                    <span class="badge badge-warning text-uppercase text-dark">sport</span>
+                    <h3 class="text-dark text-uppercase">Lorem ipsum dolor sit amet.</h3>
+                    <p class="lead text-capitalize text-dark">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam commodi consectetur quaerat.</p>
+                </div>
+                <img src="/dist/img/articles/sports1.jpg" alt="ent 1">
+            </article>
+            <article class="card p-1 bg-white">
+                <img src="/dist/img/articles/tech2.jpg" alt="ent 1">
+                <div class="article-content">
+                    <span class="badge badge-primary text-uppercase text-dark">technology</span>
+                    <h3 class="text-dark text-uppercase">Lorem ipsum dolor sit amet.</h3>
+                    <p class="lead text-capitalize text-dark">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam commodi consectetur quaerat.</p>
+                </div>
+            </article>
+            <article class="card bg-danger p-1">
+                
+                <div class="article-content">
+                    <span class="badge badge-warning text-uppercase text-light">sport</span>
+                    <h3 class="text-light text-uppercase">Lorem ipsum dolor sit amet.</h3>
+                    <p class="lead text-capitalize text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam commodi consectetur quaerat.</p>
+                </div>
+            </article> 
+        <article class="card p-1 bg-white ent2">
+           
+            <div class="article-content">
+                <span class="badge badge-purple text-uppercase text-dark">Entertinment</span>
+                <h3 class="text-dark text-uppercase">Lorem ipsum dolor sit amet.</h3>
+                <p class="lead text-capitalize text-dark">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam commodi consectetur quaerat.</p>
+               
+            </div>
+            <img src="/dist/img/articles/ent2.jpg" alt="ent 2">
+        </div>
+    </div>
+</section>
+
+<!-- footer -->
+<footer id="footer" class="bg-dark">
+    <div class="container">
+        <div class="footer-content">
+            <div>
+                <img src="/dist/img/logo_light.png" alt="logo">
+                <p class="lead text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta in, quod repellat explicabo saepe ea tenetur? Est repellat ratione placeat!</p>
+            </div>
+            <div>
+                <h3 class="text-light text-uppercase">email newsletter</h3>
+                <p class="lead text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <input type="email" name="email" id="email" placeholder="enter email...">
+                <button class="btn btn-danger">SUBSCRIBE</button>
+            </div>
+            <div>
+                <h3 class="text-light text-uppercase">site links</h3>
+                <ul class="links">
+                    <li><a href="#">help & support</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">contact us</a></li>
+                </ul>
+            </div>
+            <div>
+                <span class="text-light">Lorem, ipsum dolor.</span>
+                <h3 class="text-light text-uppercase">join our club</h3>
+                <p class="lead text-light p-y-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn btn-warning">JOIN NOW</a>
+            </div>
+        </div>
+        <div class="copy bg-black">
+            <p class="lead  text-capitalize">copyright &:copy 2021 , all rights reserved</p>
+        </div>
+    </div>
+  
+</footer>
+   <!-- font awesome -->
+   <script src="https://kit.fontawesome.com/8df3d0ac72.js" crossorigin="anonymous"></script>
 </body>
 </html>

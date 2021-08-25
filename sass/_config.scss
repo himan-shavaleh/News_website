@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'alumni sans' ,serif;
 }
 ul,ol{
     list-style: none;
@@ -16,14 +17,21 @@ a{
     text-decoration: none;
 
 }
+img{
+    width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'basely' , sans-serif;
+    line-height: 1.3;
+    margin-bottom: 0.6rem;
+}
 // color variables
-$color-light:#ede9d0;
-$color-danger:#e4251d;
-$color-burly:#df9a8b;
-$color-sin:#3a001a;
-$color-yell:#f5e6a1;
-$color-warning:#fb9300;
-$color-dark:#343f56;
-$color-tomato:#e84a5f;
-$color-black:#2a363b;
-$color-bisque:#fecea8;
+$color-danger:#c72727;
+$color-warning:#f99500;
+$color-light:#f3f3f3;
+$color-dark:#444;
+$color-purple:#a66bbe;
+$color-primary:#009cff; 
+$color-white:#fff;
+
+

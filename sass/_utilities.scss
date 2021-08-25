@@ -2,26 +2,32 @@
 .text-capitalize{
     text-transform: capitalize;
 }
+.text-uppercase{
+    text-transform: uppercase;
+}
 .text-center{
     text-align: center;
 }
-.text-sin{
-    color: $color-sin;
-}
+
 .text-warning{
     color: $color-warning;
 }
 .text-light{
     color: $color-light;
 }
-.text-tomato{
-    color: $color-tomato;
-}
+
 .text-dark{
     color: $color-dark;
 }
 
 // margin and padding classes
+.container{
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+  
+}
 .m-1{
     margin: 1rem;
 }
@@ -81,4 +87,77 @@
     justify-content: center;
       align-items: center;
       text-align: center;
+}
+.lead{
+font-size: 1.4rem;
+letter-spacing: 1px;
+}
+.current{
+    background: $color-danger;
+    color: $color-light;
+}
+
+
+
+// btn classes
+.btn{
+    font-size: 1.4rem;
+    padding: 5px 20px;
+    transition: all 0.5s ease;
+    &:hover{
+        background: transparent;
+    }
+}
+.btn-danger{
+color: $color-light;
+background: $color-danger;
+border: 1px solid $color-danger;
+border-radius: 5px;
+}
+.btn-warning{
+    color: $color-light;
+    background: $color-warning;
+    border: 1px solid $color-warning;
+    border-radius: 5px;
+    margin: 10px;
+    }
+
+
+
+
+// badges
+.badge{
+    font-size: 1.2rem;
+    padding: 3px 6px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.badge-warning{
+background: $color-warning;
+
+}
+.badge-purple{
+    background: $color-purple;
+}
+
+.badge-primary{
+    background: $color-primary;
+}
+// backgrounds
+.bg-light{
+    color: $color-dark;
+    background: $color-light;
+}
+.bg-dark{
+    background: $color-dark;
+    color: $color-light;
+}
+.bg-white{
+    background: $color-white;
+}
+.bg-danger{
+    background: $color-danger;
+}
+.bg-black{
+    background: #222;
 }
