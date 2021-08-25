@@ -1,0 +1,99 @@
+@media screen and (max-width:768px) {
+    // navbar 
+    #nav{
+        .container{
+            display: flex!important;
+            flex-direction: column;
+            *{
+                margin: 0!important;
+                padding: 5px!important;
+            }
+            .social-icons{
+                display: none;
+            }
+        }
+    }
+    // header
+#header{
+    .container{
+        margin: 0;
+        padding: 0;
+        height: 70vh;
+        .showcase-container{
+            height: 100%;
+            .showcase-content{
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+}
+#topics{
+    .container{
+        .articles{
+            grid-template-columns: 1fr!important;
+            
+        }
+        .ent1{
+            grid-column: 1!important;
+            flex-direction: column;
+           
+            
+        }
+        .ent2{
+            grid-column: 1!important;
+            flex-direction: column;
+            
+            
+        }
+        .card{
+            img{
+                width: 100%!important;
+            }
+           
+        }
+    }
+}
+// footer
+#footer{
+.container{
+    .footer-content{
+        display: flex!important;
+        flex-direction: column;
+        div{
+            border-bottom: 1px solid $color-white;
+            width: 100%;
+            &:last-child{
+                border: none;
+            }
+        }
+    }
+    .copy{
+        p{
+            font-size: 1rem;
+        }
+    }
+}
+}
+// about page
+#main-about{
+    padding: 0;
+    .container{
+        padding: 0;
+        grid-template-columns: 1fr!important;
+    }
+}
+// article page
+#main{
+    .container{
+        grid-template-columns: 1fr!important;
+        .writer{
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+
+}
+}
+
+
